@@ -22,7 +22,7 @@ function calcular(){
         beca = 0.60;
     }
 
-    //BECAAPROBADA
+    // SI TIENE BECA
 
     if(beca > 0){
 
@@ -41,7 +41,7 @@ function calcular(){
         `;
     }
 
-    //NOBECA
+    // SI NO TIENE BECA
 
     else{
 
@@ -52,7 +52,7 @@ function calcular(){
         let pagoMensual = totalConInteres / meses;
 
         resultado.innerHTML = `
-            <h2>No aplica para beca</h2>
+            <h2>Opciones de financiamiento</h2>
 
             <p><strong>Total sin interés:</strong> $${colegiatura.toFixed(2)}</p>
 
